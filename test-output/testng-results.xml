@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39108" started-at="2019-04-20T19:41:55Z" finished-at="2019-04-20T19:42:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39108" started-at="2019-04-20T19:41:55Z" finished-at="2019-04-20T19:42:34Z">
+      <class name="Com.Project.TestCase.TestCase">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="setUpBeforeClass" is-config="true" duration-ms="10583" started-at="2019-04-21T01:11:55Z" finished-at="2019-04-21T01:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="BasicCheck()[pri:0, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="BasicCheck" duration-ms="3639" started-at="2019-04-21T01:12:06Z" finished-at="2019-04-21T01:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicCheck -->
+        <test-method status="PASS" signature="SearchCriteria()[pri:1, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="SearchCriteria" duration-ms="7590" started-at="2019-04-21T01:12:09Z" finished-at="2019-04-21T01:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCriteria -->
+        <test-method status="PASS" signature="GetBookDetails()[pri:2, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="GetBookDetails" duration-ms="5789" started-at="2019-04-21T01:12:17Z" finished-at="2019-04-21T01:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookDetails -->
+        <test-method status="PASS" signature="Get_PaperBack_Details()[pri:3, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="Get_PaperBack_Details" duration-ms="1703" started-at="2019-04-21T01:12:23Z" finished-at="2019-04-21T01:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_PaperBack_Details -->
+        <test-method status="PASS" signature="Search()[pri:4, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="Search" duration-ms="5589" started-at="2019-04-21T01:12:24Z" finished-at="2019-04-21T01:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="Other()[pri:5, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="Other" duration-ms="978" started-at="2019-04-21T01:12:30Z" finished-at="2019-04-21T01:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Other -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Project.TestCase.TestCase@4f933fd1]" name="tearDown" is-config="true" duration-ms="3173" started-at="2019-04-21T01:12:31Z" finished-at="2019-04-21T01:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Project.TestCase.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

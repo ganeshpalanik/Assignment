@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import Com.Project.Utility.Driver;
 
@@ -18,16 +19,20 @@ private static WebDriver driver;
 		if(driverName.equals("CHROME"))
 		{
 			System.setProperty(Driver.CHROME, Driver.CHROME_PATH);
-						
+									
 			driver = new ChromeDriver();
 		
-			
 		}
 		
 		else if(driverName.equals("FIREFOX"))
 		{
 			System.setProperty(Driver.FIREFOX, Driver.FIREFOX_PATH);
-			driver = new FirefoxDriver();
+			
+			FirefoxOptions options = new FirefoxOptions();
+			
+			options.setCapability("marionette", true);
+			
+			driver = new FirefoxDriver(options);
 			
 		}
 		

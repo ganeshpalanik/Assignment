@@ -8,15 +8,17 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
-
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import Com.Project.POM.DetailsPOM;
@@ -104,12 +106,20 @@ public class TestCase {
 	
 	@AfterClass
 	
-	public void tearDown() throws Exception {
+	public void Close() throws Exception {
 		
 		Thread.sleep(1000);
 		
 		driver.quit();
 	}
+	
+	@AfterMethod
+	
+	public void Waitfor() throws InterruptedException
+	{
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
 	
 	//Login to Amazon.com and verify the title
 	
@@ -131,7 +141,10 @@ public class TestCase {
 	// Select DropDown Category to Book and search the field
 	
 	public void SearchCriteria()
+	
 	{
+		
+		
 		HomePage.DropdownSelect(Category);
 		
 		HomePage.InputText(TexttoSearch);

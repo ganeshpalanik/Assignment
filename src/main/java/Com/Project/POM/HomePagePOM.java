@@ -24,7 +24,9 @@ WebDriverWait wait;
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(id="searchDropdownBox")
+	//@FindBy(id="searchDropdownBox")
+	
+	@FindBy(xpath="//*[@id='searchDropdownBox']")
 	private WebElement Dropdown;
 	
 
@@ -46,7 +48,8 @@ WebDriverWait wait;
 		
 		Drop.selectByVisibleText(Value);
 		
-		//Drop.selectByIndex(1);
+		
+		
 		
 	}
 	

@@ -2,6 +2,8 @@ package Com.Project.POM;
 
 
 import org.openqa.selenium.Keys;
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -10,6 +12,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+// This Page is to verify the fields in the home page of www.amazon.com
 
 public class HomePagePOM {
 	

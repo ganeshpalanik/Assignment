@@ -2,6 +2,9 @@ package Com.Project.POM;
 
 
 import java.util.Iterator;
+
+
+
 import java.util.List;
 
 import org.openqa.selenium.Keys;
@@ -14,6 +17,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+// This is to document the webelement of the search result page 
 
 public class SearchResultPOM {
 	

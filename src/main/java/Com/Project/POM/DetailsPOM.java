@@ -15,6 +15,7 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 import Com.Project.Utility.GenericMethods;
 
+// This Class is to retrieve the book details
 
 
 public class DetailsPOM {

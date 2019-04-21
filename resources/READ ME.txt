@@ -1,0 +1,60 @@
+       ******************************************************************************************************************************************
+
+							ASSIGNMENT PROJECT INFO
+     
+      ******************************************************************************************************************************************
+
+Thanks for opting to review this Assignment Project
+
+You can download the project into your local folder and just run the "testng.xml" as TestNG Suite and verify the project behaviour
+
+
+
+About the Project:
+
+Assignment is to go to www.amazon.com and enter "Data Catalog" with Books as dropdown and perform the search result and then pick the first result and retrieve the book details through selenium automation in a frame work based approach.
+
+
+
+Code Structure :
+
+This Assignment Project has designed in a frame work using Java, TestNG plugin, Selenium . 
+
+Page Factory concept has been implemented to this selenium project. Each Page will be converted to a Java Class and each field will considered as a Variable and a separate method is created for each variable to perform its necessary action. This is done in "src/main/java" folder
+
+In the "Src/Test/Java", TestNG Annotations are used for each test and call the Page Object Methods in this page by creating an instance of the POM .In Addition, it also reads the Base URl and Search Details from General.Properties File 
+
+
+
+Code Implementation Details:
+
+1. In Com.Project.Utility Package has Java Class which deals about initializing the Selenium WebDrivers
+
+2. In Com.Project.POM Package has Java Class related to each Page of Amazon.com and its necessary results page . Each Page will be created a separate class and elements are found by "@FindBy" Page Factory Concept.
+
+3. In Com.Project.ResultHandling Package has Java Class related to capturing screenshot and Extent Report Generation interface
+
+4. In the Com.Project.TestCase(in Src/Test/Java) has test case Class whcih has multiple tests with TestNG Annotation. In this page, each page in Main Package are called by initializing a variable .
+
+5.Assertions are made to verify the test scenarios and screenshots are captured and results are documented in Extent.Html
+
+6.Resources Folder contains the Gecko Driver, Chrome Driver and General Properties File. Under this file it has url details and search criteria details
+
+7.Reports Folder has Screenshot folder, which contains the Screenshot during testing of each test cases
+
+8.Testng.Xml has the listener class and also the class which needs to listen to document the results.
+
+
+Common Assumptions:
+
+Project is compatabile with Chrome/Fire Fox Browser
+
+Page Factory concept used to implement Page Object Model
+
+Relative Xpath has been always used whenever needed instead of absolute path to avoid any change in the path of the webelements
+
+Java/TestNg/Selenium based approach. 
+
+Assertions are performed for few scenarios/tests.
+
+Comments has been added in the code

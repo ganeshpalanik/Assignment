@@ -58,3 +58,14 @@ Java/TestNg/Selenium based approach.
 Assertions are performed for few scenarios/tests.
 
 Comments has been added in the code
+
+------------
+
+Run in Mac Os Env
+
+
+java -cp "Full_path_to_your_project_bin_directory:Full_path_to_your_project jar_directory" org.testng.TestNG path_to_your_xml_file_dir/fileName.xml
+
+Note : Keep all the jar files under same directory.
+
+Example: java -cp "/Users/fidanza/LearnTestNG/bin:/Users/fidanza/SeleniumStuffs/Jars/*" org.testng.TestNG ~/LearnTestNG/testRun.xml

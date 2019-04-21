@@ -214,7 +214,7 @@ public class TestCase {
 	
 	//// Retrieve the Kindle Results if the page contains in the format of Tab like Kindle, PaperBack Etc.,
 	
-	public void Search() throws Exception
+	public void Kindle() throws Exception
 	{
 				
 		K_Exist =Details.FieldExists();			

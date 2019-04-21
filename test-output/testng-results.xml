@@ -2,44 +2,68 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Project Assignment" duration-ms="106590" started-at="2019-04-21T07:19:11Z" finished-at="2019-04-21T07:20:57Z">
+  <suite name="Default suite" duration-ms="31372" started-at="2019-04-21T20:06:42Z" finished-at="2019-04-21T20:07:14Z">
     <groups>
     </groups>
-    <test name="Assignment Tests" duration-ms="106590" started-at="2019-04-21T07:19:11Z" finished-at="2019-04-21T07:20:57Z">
+    <test name="Default test" duration-ms="31372" started-at="2019-04-21T20:06:42Z" finished-at="2019-04-21T20:07:14Z">
       <class name="Com.Project.TestCase.TestCase">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="setUpBeforeClass" is-config="true" duration-ms="15112" started-at="2019-04-21T12:49:11Z" finished-at="2019-04-21T12:49:26Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="setUpBeforeClass" is-config="true" duration-ms="8097" started-at="2019-04-22T01:36:42Z" finished-at="2019-04-22T01:36:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="BasicCheck()[pri:0, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="BasicCheck" duration-ms="4022" started-at="2019-04-21T12:49:26Z" finished-at="2019-04-21T12:49:30Z">
+        <test-method status="PASS" signature="BasicCheck()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="BasicCheck" duration-ms="2012" started-at="2019-04-22T01:36:50Z" finished-at="2019-04-22T01:36:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasicCheck -->
-        <test-method status="PASS" signature="SearchCriteria()[pri:1, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="SearchCriteria" duration-ms="37827" started-at="2019-04-21T12:49:30Z" finished-at="2019-04-21T12:50:08Z">
+        <test-method status="PASS" signature="Waitfor()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Waitfor" is-config="true" duration-ms="20" started-at="2019-04-22T01:36:52Z" finished-at="2019-04-22T01:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Waitfor -->
+        <test-method status="PASS" signature="SearchCriteria()[pri:1, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="SearchCriteria" duration-ms="6100" started-at="2019-04-22T01:36:52Z" finished-at="2019-04-22T01:36:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchCriteria -->
-        <test-method status="PASS" signature="GetBookDetails()[pri:2, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="GetBookDetails" duration-ms="8026" started-at="2019-04-21T12:50:08Z" finished-at="2019-04-21T12:50:16Z">
+        <test-method status="PASS" signature="Waitfor()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Waitfor" is-config="true" duration-ms="5" started-at="2019-04-22T01:36:59Z" finished-at="2019-04-22T01:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Waitfor -->
+        <test-method status="PASS" signature="GetBookDetails()[pri:2, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="GetBookDetails" duration-ms="5086" started-at="2019-04-22T01:36:59Z" finished-at="2019-04-22T01:37:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetBookDetails -->
-        <test-method status="PASS" signature="Get_PaperBack_Details()[pri:3, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="Get_PaperBack_Details" duration-ms="2947" started-at="2019-04-21T12:50:16Z" finished-at="2019-04-21T12:50:19Z">
+        <test-method status="PASS" signature="Waitfor()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Waitfor" is-config="true" duration-ms="6" started-at="2019-04-22T01:37:04Z" finished-at="2019-04-22T01:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Waitfor -->
+        <test-method status="PASS" signature="Get_PaperBack_Details()[pri:3, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Get_PaperBack_Details" duration-ms="1104" started-at="2019-04-22T01:37:04Z" finished-at="2019-04-22T01:37:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get_PaperBack_Details -->
-        <test-method status="PASS" signature="Search()[pri:4, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="Search" duration-ms="10741" started-at="2019-04-21T12:50:19Z" finished-at="2019-04-21T12:50:30Z">
+        <test-method status="PASS" signature="Waitfor()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Waitfor" is-config="true" duration-ms="5" started-at="2019-04-22T01:37:05Z" finished-at="2019-04-22T01:37:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Search -->
-        <test-method status="PASS" signature="Other()[pri:5, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="Other" duration-ms="1421" started-at="2019-04-21T12:50:30Z" finished-at="2019-04-21T12:50:31Z">
+        </test-method> <!-- Waitfor -->
+        <test-method status="PASS" signature="Kindle()[pri:4, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Kindle" duration-ms="6069" started-at="2019-04-22T01:37:05Z" finished-at="2019-04-22T01:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Kindle -->
+        <test-method status="PASS" signature="Waitfor()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Waitfor" is-config="true" duration-ms="5" started-at="2019-04-22T01:37:11Z" finished-at="2019-04-22T01:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Waitfor -->
+        <test-method status="PASS" signature="Other()[pri:5, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Other" duration-ms="736" started-at="2019-04-22T01:37:11Z" finished-at="2019-04-22T01:37:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Other -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Project.TestCase.TestCase@20e2cbe0]" name="tearDown" is-config="true" duration-ms="26404" started-at="2019-04-21T12:50:31Z" finished-at="2019-04-21T12:50:57Z">
+        <test-method status="PASS" signature="Waitfor()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Waitfor" is-config="true" duration-ms="6" started-at="2019-04-22T01:37:12Z" finished-at="2019-04-22T01:37:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- Waitfor -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:Com.Project.TestCase.TestCase@28feb3fa]" name="Close" is-config="true" duration-ms="2078" started-at="2019-04-22T01:37:12Z" finished-at="2019-04-22T01:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
       </class> <!-- Com.Project.TestCase.TestCase -->
-    </test> <!-- Assignment Tests -->
-  </suite> <!-- Project Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

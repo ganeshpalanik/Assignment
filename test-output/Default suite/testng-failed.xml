@@ -5,9 +5,15 @@
     <classes>
       <class name="Com.Project.TestCase.TestCase">
         <methods>
+          <include name="GetBookDetails"/>
           <include name="setUpBeforeClass"/>
+          <include name="SearchCriteria"/>
+          <include name="BasicCheck"/>
+          <include name="Kindle"/>
+          <include name="Waitfor"/>
           <include name="Get_PaperBack_Details"/>
-          <include name="tearDown"/>
+          <include name="Close"/>
+          <include name="Other"/>
         </methods>
       </class> <!-- Com.Project.TestCase.TestCase -->
     </classes>

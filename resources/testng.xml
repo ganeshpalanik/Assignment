@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Project Assignment">
+
+	<listeners>
+	
+		<listener class-name="Com.Project.ResultHandling.ExtentReporterNG" />
+		
+	</listeners>
+
+
+	<test name="Assignment Tests">
+	
+		<classes>
+		
+			<class name="Com.Project.TestCase.TestCase"></class>
+			
+		</classes>
+		
+	</test>
+	
+</suite>

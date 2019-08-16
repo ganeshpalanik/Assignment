@@ -59,6 +59,37 @@ Assertions are performed for few scenarios/tests.
 
 Comments has been added in the code
 
+Console will print the values 
+
+Sample output
+
+---
+
+Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
+Size of Author is ====>  1
+Authors Name ==> Martin Kleppmann
+175 customer reviews
+Availability is ===> In Stock.
+Paper Back Buy New Price is =====> $35.98
+Paper Back Delivery Date is ===>  This item ships to India. Get it by Tuesday, Aug. 20 - Monday, Aug. 26 Choose this date at checkout. Learn more
+Paper Back Used Price is =====> $28.93
+Kindle Product Sold by is =====>  Amazon Digital Services LLC
+Kindle Product Price is ====> $15.69
+Kindle Book Feature contains =====> Highlight, take notes, and search in the book
+Length: 616 pages
+Enhanced Typesetting: Enabled
+Page Flip: Enabled
+Due to its large file size, this book may take longer to download
+
+===============================================
+Project Assignment
+Total tests run: 6, Failures: 0, Skips: 0
+===============================================
+
+
+-----
+
 ------------
 
 Run in Mac Os Env
